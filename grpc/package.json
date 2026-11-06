@@ -1,0 +1,13 @@
+{
+  "name": "inventario-grpc",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.cjs",
+    "client": "node client.cjs"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.14.7",
+    "@grpc/proto-loader": "^0.8.1"
+  }
+}
